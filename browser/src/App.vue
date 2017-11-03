@@ -1,15 +1,17 @@
 <template>
   <div id="app">
-    <h1>
-      pc App
-    </h1>
+    <nav-bar></nav-bar>
     <router-view/>
   </div>
 </template>
 
 <script>
+import NavBar from '@/components/nav-bar/nav-bar'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    NavBar
+  }
 }
 </script>
 <style lang="stylus" scoped>
@@ -21,8 +23,4 @@ export default {
   -moz-osx-font-smoothing grayscale
   text-align center
   color #2c3e50
-  margin-top 60px
-  h1
-    font-size 40px
-    margin 20px 0
 </style>
