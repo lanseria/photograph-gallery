@@ -1,4 +1,4 @@
-# photograph-gallery
+# browser3
 
 > A Vue.js project
 

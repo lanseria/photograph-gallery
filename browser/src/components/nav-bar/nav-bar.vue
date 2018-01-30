@@ -4,12 +4,12 @@
       h1 vhikzhangchao
     .info-box
       ul.info
-        li.job 
+        li.job
           h4 FE Programmer
         li
           p +86 18858395625
         li
-          p 
+          p
             a(href="#") 564265135@qq.com
     .links-wrapper
       ul.social-link
@@ -26,7 +26,7 @@
         li
           a(href="#") PHOTO
         li
-          a(href="#") VIDEO
+          a(href="#") WALLPAPER
         li
           a(href="#") LAST
 </template>
@@ -80,4 +80,3 @@ export default {
       li
         margin-right 5px
 </style>
-
